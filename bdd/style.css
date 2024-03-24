@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.header {
+    background-color: rgb(29, 161, 242);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px 15px rgba(29, 161, 242, 1);
+}
+.header h1 {
+    margin: 15px;
+}
+
+#account_icon{
+    scale: 100%;
+    margin: 10px;
+}
+#account_icon:hover {
+    cursor: pointer;
+}
+#home_icon:hover {
+    cursor: pointer;
+}
+
+.liste_users {
+    margin-top : 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+.add_tweet {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tweetBox{
+    font-size: 25px;
+    padding: 25px;
+    background-color: rgb(225, 232, 237);
+    border-radius: 45px;
+    border: none;
+}
+#button_publish_tweet {
+    justify-content : right;
+    background-color: rgb(29, 161, 242);
+    height: 45px;
+    width: 135px;
+    border-radius: 25px;
+    border: none;
+    float: right;
+    margin-top: 25px;
+}
+#labelTweetBox {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+#all_tweets{
+    color : green;
+}
+#button_delete_tweet {
+    justify-content : right;
+    background-color: rgb(242, 29, 29);
+    height: 45px;
+    width: 135px;
+    border-radius: 25px;
+    border: none;
+    float: right;
+    margin-top: 25px;
+}
+#tweets_order{
+    display : flex; 
+    flex-direction : column; 
+    justify-content : center;
+}
